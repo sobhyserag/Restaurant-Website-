@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+*{
+  font-family:'Cairo';
+  box-sizing:border-box;
+  margin:0px;
+  padding:0px;
+  scroll-behavior:smooth;
+ 
+}
+header{
+    display: flex; 
+    align-items:center;
+    justify-content: space-between;
+    background-color:black; 
+    color:gold;
+    padding: 0px 100px;
+    border-top:solid 2px;
+    position: fixed;
+    width:100%;
+    
+    
+}
+header:hover{
+    border-top:solid #FA742B 4px;
+}
+header a{
+     color:gold;
+     text-decoration:none;
+     margin-right:10px;
+     transition:ease 1s;
+     font-size: 20px;
+    
+}
+
+header a:hover{
+    color:white;
+    font-size:23px;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color:white;
+    padding:  0px 80px;
+    background-image: url(i5.jpeg);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    
+}
+.home span{
+    color:gold;
+}
+.home a{
+    color:gold;
+    text-decoration:none;
+    background-color:black;
+    padding:10px;
+    border-radius:10px;
+    display:inline-block;
+    margin-top:10px;
+}
+.home a:hover{
+    color:white;
+    background-color:gold;
+    transform:scale(1.1);
+    transition:ease 1s;
+    
+}
+.menu h2{
+      text-align:center;
+      margin:30px 0px;
+}
+.menu .container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 0px 100px;
+}
+.menu .card{
+   
+    margin-right:  20px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    padding: 10px;
+    width:16em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.menu .card:hover{
+    background-color:gold ;
+    font-size:20px ;
+}
+.card h3{
+    color:crimson;
+}
+.card .i1 img{
+    text-align:center;
+    width: 230px;
+    height:170px;
+
+}
+
+.contact{
+
+    background-color:black;
+    width:100%;
+    
+}
+.contact h2{
+     color:gold;
+     text-align:center;
+     padding:30px;
+}
+.contact .cont{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 0px 100px;
+    color:gold;
+
+}
+.contact .card{
+    margin-right:  20px;
+    box-shadow: 0px 5px 20px 0px gold;
+    padding: 10px;
+    width:16em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color:black;
+    color: gold;
+    padding:8px;
+}
+.up{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    color:black;
+}
+.up:hover{background-color:crimson;}
